@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+}
+
+.orange-text {
+    color: black;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: auto;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box-text {
+
+    margin: auto;
+}
