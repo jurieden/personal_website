@@ -1,9 +1,47 @@
-h1 {
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h1.main-header {
     color: blue;
 }
+
+
 /* CSS comment */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
 .orange-text {
-    color: black;
+    color: orange;
+    text-transform: capitalize;
+}
+
+.nav-item>a {
+    text-transform: none;
+    text-decoration: none;
+    color: #d1d8e0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-item>a:hover {
+    color: #a5b1c2;
+}
+
+#button-test {
+    padding: 10px;
+    font-weight: 600;
+}
+
+ul#list-navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 .box {
@@ -21,6 +59,11 @@ h1 {
     padding: auto;
 }
 
+.box:hover {
+    background-color: #45aaf2;
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     width: 100%;
@@ -28,6 +71,5 @@ h1 {
 }
 
 .box-text {
-
     margin: auto;
 }

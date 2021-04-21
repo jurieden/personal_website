@@ -1,41 +1,49 @@
-<body>
-    <!--This is an example text that won't be displayed in the browser-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Mein erster Versuch einer Website :)</title>
+    <style>
+        h1 {
+            color: white;
+        }
+
+        p {
+            color: white
+        }
+    </style>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="/script.js" type="text/javascript"></script>
+</head>
+
+<body style="background-color: black;">
+
+    <header>
+        <nav style="color: white;">
+            <ul id="list-navigation">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--This is an example text that won't be displayed in the browser-->
+
 
     <div>
-        <h1>Title</h1>
-        <p class="orange-text">erster Text :)
-
-
+        <h1 class="main-header">Herzlich willkommen</h1>
+        <p class="orange-text" style="color: tomato;">Mein Name ist Juri und das ist mein erster Versuch eine Website zu
+            bauen :)
         </p>
-        <p>hier ist noch mehr <i></i>Text</i> :D</p>
+        <div class="image-container"> <img src="juri_2017.jpeg" height="350" /></div>
 
-        <p>vielleicht ist es ein bisschen zu viel Text? ¯\_ (ツ)_/¯ </p>
 
-        <iframe 
-        
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/7-lWzQd_xeQ" 
-        title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        
-        </iframe>
-<!--
-    Musik: (Playlist? -> Spotify?)
-    Mehr Text für einen neuen commit
-        https://www.youtube.com/watch?v=0F0CAEoF4XM
+        <p><i>suche und du wirst finden</i> ¯\_ (ツ)_/¯ </p>
 
-    Spiele:
-        http://www.higherlowergame.com/
-        https://geotastic.de/home
-        https://skribbl.io/
-        https://codenames.game/
-        https://garticphone.com/de
--->
         <div class="container">
             <div class="box">
                 <p class="box-text">Higher or Lower</p>
@@ -50,9 +58,42 @@
                 <p>4</p>
             </div>
         </div>
-
-        <button onclick="alert('helo'+myFunction(3,5))">click me</button>
+        <p id="counter-display">123456</p>
+        <button onclick="myFunction()" id="button-test">click me</button>
 
 
     </div>
+    <!--
+    Ideen:
+    Musik: (Playlist? -> Spotify?)
+        https://www.youtube.com/watch?v=0F0CAEoF4XM
+        https://www.youtube.com/watch?v=fY1IXtyyRp0
+
+    Spiele:
+        http://www.higherlowergame.com/
+        https://geotastic.de/home
+        https://skribbl.io/
+        https://codenames.game/
+        https://garticphone.com/de
+-->
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7-lWzQd_xeQ" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+
+    </iframe>
+
+    <footer>
+        <p>Meine Straße Drölf</p>
+        <p>juri.gerber@hotmail.com</p>
+    </footer>
+
 </body>
+
+</html>
