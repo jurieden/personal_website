@@ -2,14 +2,14 @@
 meine erste Website
 
 ## about 
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ### To DO
--adjust Footer
--make boxes float in the middle
--Burger Menu
+- adjust Footer
+- make boxes float in the middle
+- Burger Menu
 
 
 ### live version
