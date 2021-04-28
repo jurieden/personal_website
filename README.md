@@ -10,3 +10,7 @@ meine erste Website
 -adjust Footer
 -make boxes float in the middle
 -Burger Menu
+
+
+### live version
+https://jurieden.netlify.app/
