@@ -5,3 +5,8 @@ meine erste Website
 -HTML
 -CSS
 -JavaScript
+
+### To DO
+-adjust Footer
+-make boxes float in the middle
+-Burger Menu

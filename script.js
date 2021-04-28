@@ -12,8 +12,8 @@ function myFunction() {
     const counterContainer = document.getElementById("counter-display")
     counterContainer.innerText = numberOfClicks
 
-    if(numberOfClicks===10){
-        counterContainer.style.color="red"
+    if (numberOfClicks === 10) {
+        counterContainer.style.color = "red"
     }
 
 }
