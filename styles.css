@@ -42,6 +42,18 @@ ul#list-navigation {
     list-style-type: none;
 }
 
+ul#footer-list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li.footer-item{
+    width: 33%;
+}
+
 .box {
     display: flex;
     justify-content: center;
