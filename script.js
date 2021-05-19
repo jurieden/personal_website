@@ -17,6 +17,11 @@ function myFunction() {
     }
 
 }
+
+function clickCategory (category) {
+    console.log("UserHasClicked"+category)
+    dataLayer.push({'event': 'button_click','category': category});
+}
 // comment single line
 /*
 comment
