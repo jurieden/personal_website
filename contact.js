@@ -9,6 +9,7 @@ document.getElementById("contact-form").onsubmit = function (event) {
         headers: {
             "Content-Type": "application/json"
         },
+        mode:"no-cors",
         body: JSON.stringify({
             "name": event.target.name.value,
             "email": event.target.email.value
