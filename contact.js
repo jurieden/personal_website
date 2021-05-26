@@ -9,10 +9,15 @@ document.getElementById("contact-form").onsubmit = function (event) {
         headers: {
             "Content-Type": "application/json"
         },
-        mode:"no-cors",
+        mode: "no-cors",
         body: JSON.stringify({
             "name": event.target.name.value,
             "email": event.target.email.value
         })
+    }).then(function (response) {
+        console.log(response)
+        document.getElementById("contact-form").style.display="none"
+        document.getElementById("danke").style.display="block"
     })
+
 }

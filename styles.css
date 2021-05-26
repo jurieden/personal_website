@@ -7,6 +7,10 @@ h1.main-header {
     color: blue;
 }
 
+.dankenachricht {
+    color: green;
+    display: none;
+}
 
 .image-container {
     display: flex;
