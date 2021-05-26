@@ -11,7 +11,7 @@ document.getElementById("contact-form").onsubmit = function (event) {
         },
         body: JSON.stringify({
             "name": event.target.name.value,
-            "email": event.zarget.email.value
+            "email": event.target.email.value
         })
     })
 }
