@@ -106,6 +106,27 @@ footer {
     font-style: italic;
 }
 
+.control-container{
+    display: flex;
+}
+
+#starwarsapi{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character-container{
+    width: 200px;
+    margin: 5px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+
+
+}
+
 nav {
     border-bottom: 1px solid grey;
     position: fixed; 
@@ -138,4 +159,30 @@ text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 10px;
+}
+
+.button1{
+    background-color: #084c99;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    }
+.button1:hover{
+    color:white;
+    background-color:#0a51a3;
+    cursor:pointer;
+    }
+
+.control-container{
+    color:#00FF00;
+
+}
+
+.h1.main-header{
+    color: #084c99;
 }
