@@ -265,3 +265,11 @@ a:visited{
 #wasMachenSachen:hover{
     color: hotpink;
 }
+
+#klickMeHard{
+    padding: 20px;
+    font-weight: 600;  
+    background-color: #084c99;
+    color: pink;
+}
+
