@@ -43,9 +43,9 @@
         <h1 class="main-header">Was machen Sachen<a id="wasMachenSachen" target="_blank"
                 href="https://www.youtube.com/watch?v=afhOpXMllH0&t=4s">?</a></h1>
         <br>
-        <div class="control-container">
+         <!--<div  class="control-container"> -->
             <form id="activities">
-                <div><label for="activities">Worauf hast du grade Lust? </label>
+                <div id= dropdownEins><label for="activities">Worauf hast du grade Lust? </label>
                     <br>
                     <select name="activities" class="dropdown" id="activitiesDropdown">
                         <option value="" disabled selected>hier auswählen</option>
@@ -55,8 +55,7 @@
                         <option value="Yoga">Yoga</option>
                     </select>
                 </div>
-                <br>
-                <div><label>Wie viel Zeit hast du?</label>
+                <div id= "dropdownZwei"><label>Wie viel Zeit hast du?</label>
                     <br>
                     <select name="time" class="dropdown" id="timeDropdown">
                         <option value="" disabled selected>hier auswählen</option>
@@ -68,10 +67,24 @@
                     <!--<input type="number" id="timeDropdown" />
                 -->
                 </div>
-                <br>
-                <div>
+             
+                <div id= dropdownDrei>
+                    <br>
                     <button type="submit" id="activitiesButton" class="button1">zeig mir etwas passendes</button>
             </form>
+        </div>
+        
+            <div id="table_activities">
+
+                <table id="activitiesTable">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+        
+            </div>
             <!-- 
             <br>
             <br>
@@ -79,22 +92,14 @@
                 <button type="submit" id="randomButton" class="button1">überrasch mich :)</button>
             </form>
             -->
-        </div>
+        
+    </div>
+    
+    
+
     </div>
 
-    </div>
-
-    <div class="table_activities">
-
-        <table id="activitiesTable">
-            <tr>
-                <th>Suggestion</th>
-                <th>Time estimate</th>
-                <th>Embedded link</th>
-            </tr>
-        </table>
-
-    </div>
+   
 
 
 

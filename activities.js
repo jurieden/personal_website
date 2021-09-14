@@ -4,9 +4,11 @@ document.getElementById("activities").onsubmit = function (event) {
   console.log(event.target.activities.value)
   console.log(event.target.time.value)
 
+
   //let timeFilter = document.getElementById("timeDropdown").value;
   //let categoryFilter = document.getElementById("activitiesDropdown").value;
 
+  document.getElementById("table_activities").style.visibility = "visible"
   document.getElementById("activitiesTable").innerHTML = "";
 
   // getting our activities
@@ -23,66 +25,18 @@ document.getElementById("activities").onsubmit = function (event) {
   })
 
 }
-  /*
-  fetch("https://hook.integromat.com/b7fru9rcs2secob2b57x4o5uhbdpxd19", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    mode: "no-cors",
-    body: JSON.stringify({
-      "activities": event.target.activities.value,
-      "time": event.target.time.value
-    })
-  })
-  fetch("https://jurieden.netlify.app/activities.html?post", {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    mode: "no-cors",
-    body: JSON.stringify({
-      "activities": event.target.activities.value,
-      "time": event.target.time.value
-    })
-  })*/
-
-
-
-document.getElementById("activitiesrandom").onsubmit = function (event) {
-  event.preventDefault()
-  console.log("random")
-}
-
-
-
-
-// getting our activities when the user JUST landed on the page
-
-/*
-fetch("https://calm-spire-33184.herokuapp.com/activities")
-.then(function (response) {
-  return response.json()
-}).then(function (data) {
-  console.log(data, "data")
-  // data
-  data.map(function (item) {
-    createActivitiesRow(item)
-  })
-})
-*/
 
 function createActivitiesRow(activity) {
   const row = document.createElement("tr")
 
-  const firstCell = document.createElement("td")
+ /* const firstCell = document.createElement("td")
   firstCell.innerText = activity.activityName
   row.appendChild(firstCell)
 
   const secondCell = document.createElement("td")
   secondCell.innerText = activity.activityTime
   row.appendChild(secondCell)
-
+*/
   const thirdCell = document.createElement("td")
  // thirdCell.innerText = activity.activityLink
   row.appendChild(thirdCell)
@@ -125,4 +79,49 @@ listOfActivities.filter(function (item) {
 }).map(function (item) {
   createActivitiesRow(item)
 })
+*/
+
+ /*
+  fetch("https://hook.integromat.com/b7fru9rcs2secob2b57x4o5uhbdpxd19", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    mode: "no-cors",
+    body: JSON.stringify({
+      "activities": event.target.activities.value,
+      "time": event.target.time.value
+    })
+  })
+  fetch("https://jurieden.netlify.app/activities.html?post", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    mode: "no-cors",
+    body: JSON.stringify({
+      "activities": event.target.activities.value,
+      "time": event.target.time.value
+    })
+  })*/
+
+  // getting our activities when the user JUST landed on the page
+
+/*
+fetch("https://calm-spire-33184.herokuapp.com/activities")
+.then(function (response) {
+  return response.json()
+}).then(function (data) {
+  console.log(data, "data")
+  // data
+  data.map(function (item) {
+    createActivitiesRow(item)
+  })
+})
+*/
+/*
+document.getElementById("activitiesrandom").onsubmit = function (event) {
+  event.preventDefault()
+  console.log("random")
+}
 */
